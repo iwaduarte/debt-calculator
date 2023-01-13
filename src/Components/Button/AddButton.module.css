@@ -1,0 +1,17 @@
+.button {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #06a9db;
+}
+
+.add {
+  display: flex;
+  margin-bottom: 18px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon {
+  margin: 0 4px;
+}

@@ -1,0 +1,15 @@
+.main h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 2px;
+}
+.subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #504f54;
+  width: 94%;
+  margin-bottom: 24px;
+}

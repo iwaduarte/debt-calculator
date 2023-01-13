@@ -1,0 +1,51 @@
+:root {
+  --main-color: #06a9db;
+  --main-color-hover: rgba(6, 169, 219, 0.2);
+  --track-color: #c9c9c9;
+}
+
+.slider {
+  width: 260px;
+  margin: 24px;
+}
+
+.thumb {
+  cursor: grab;
+  background-color: #fff;
+  border: 1px solid #06a9db;
+  width: 28px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 25px;
+  height: 28px;
+  outline-color: #06a9db;
+}
+
+:global(.track) {
+  top: 8px;
+  bottom: 0;
+  height: 12px;
+  background: #c9c9c9;
+  border-radius: 999px;
+}
+
+:global(.track.track-0) {
+  background: #06a9db;
+}
+
+.sliderGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.captions {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding: 28px 28px 0;
+  color: #504f54;
+}

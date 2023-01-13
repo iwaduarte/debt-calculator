@@ -1,0 +1,139 @@
+.box {
+  box-sizing: border-box;
+  border: 1px solid #c9c9c9;
+}
+
+.anchor {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 16px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.configureLoan {
+  margin: 24px;
+}
+
+.configureLoan h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #0d0b2d;
+  margin-bottom: 4px;
+}
+.configureLoan small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #504f54;
+  margin-bottom: 16px;
+}
+.highlight {
+  display: flex;
+  flex-flow: column;
+}
+
+.highlight h4 {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #504f54;
+  margin-bottom: 8px;
+}
+
+.highlight span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #06a9db;
+}
+
+.slider {
+  display: flex;
+  margin-bottom: 24px;
+}
+.slider > *:first-child {
+  flex: 0 1 22%;
+}
+.slider > *:last-child {
+  flex: 0 1 40%;
+}
+
+.borderBottom {
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.row {
+  display: flex;
+  padding: 24px 24px 0;
+}
+.row > * {
+  flex: 1;
+}
+
+.row:last-child {
+  background: #f2fbf9;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+.row:last-child .heading {
+  font-weight: 600;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0d0b2d;
+}
+
+.numbers {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+}
+.blueColor {
+  color: #06a9db;
+}
+.greenColor {
+  color: #00b290;
+}
+
+.textFlex {
+  display: flex;
+}
+
+.textFlex > * {
+  flex: 3;
+}
+.textFlex > *:last-child {
+  flex: 1;
+  text-align: left;
+}
+
+.line {
+  height: 100%;
+  position: absolute;
+}
+.innerLine {
+  position: absolute;
+  border-right: 1px solid #c9c9c9;
+  height: calc(162px + 2vmin);
+  top: -48px;
+  left: 350px;
+}
+.comparison {
+  height: calc(162px + 2vmin);
+}
