@@ -35,7 +35,7 @@ const InputGroup = ({
         );
         const totalRepayment = monthsRemaining * monthlyPayment;
         handleTotal(remainingDebt, monthlyPayment, totalRepayment, apr);
-      }, 700);
+      }, 500);
     }
   }, [apr, remainingDebt, monthlyPayment]);
 
