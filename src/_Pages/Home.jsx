@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "./Home.module.css";
 import { Outlet } from "react-router-dom";
-import { Context } from "../../Contexts/GroupsContext.jsx";
+import { Context } from "../Contexts/GroupsContext.jsx";
 
 const { main, subtext } = style;
 

@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import style from "./Results.module.css";
 import { FaArrowLeft } from "react-icons/all";
-import Slider from "../Slider/Slider.jsx";
+import Slider from "../Components/Slider/Slider.jsx";
 import { Link, useSearchParams } from "react-router-dom";
 import { finance } from "financejs";
-import { formatNumbers } from "../../utils";
+import { formatNumbers } from "../utils.js";
 
 const {
   box,

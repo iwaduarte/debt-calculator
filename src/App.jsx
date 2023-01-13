@@ -1,13 +1,13 @@
 import "./App.css";
-import Home from "./Components/_Pages/Home.jsx";
-import Calculate from "./Components/_Pages/Calculate.jsx";
-import Results from "./Components/_Pages/Results.jsx";
+import Home from "./_Pages/Home.jsx";
+import Calculate from "./_Pages/Calculate.jsx";
+import Results from "./_Pages/Results.jsx";
 import {
   createBrowserRouter,
   Navigate,
   RouterProvider,
 } from "react-router-dom";
-import Error from "./Components/_Pages/Error.jsx";
+import Error from "./_Pages/Error.jsx";
 
 if (import.meta.hot) {
   import.meta.hot.on("vite:beforeUpdate", () => console.clear());

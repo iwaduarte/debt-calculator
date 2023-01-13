@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import style from "./Calculate.module.css";
-import InputGroup from "../Input/InputGroup.jsx";
-import AddButton from "../Button/AddButton.jsx";
-import Button from "../Button/Button.jsx";
+import InputGroup from "../Components/Input/InputGroup.jsx";
+import AddButton from "../Components/Button/AddButton.jsx";
+import Button from "../Components/Button/Button.jsx";
 import { useNavigate } from "react-router-dom";
-import { isNumber } from "../../utils.js";
-import { useContextHook } from "../../Contexts/GroupsContext.jsx";
+import { isNumber } from "../utils.js";
+import { useContextHook } from "../Contexts/GroupsContext.jsx";
 const { title } = style;
 
 const Calculate = () => {
