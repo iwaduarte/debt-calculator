@@ -76,7 +76,7 @@ const Calculate = () => {
 
     setData({ groups });
     return navigate(
-      `/supermoney/results?totalRepayment=${totalRepayment}&totalDebt=${totalDebt}&monthlyPayment=${totalMonthlyPayment}`
+      `/debt-calculator/results?totalRepayment=${totalRepayment}&totalDebt=${totalDebt}&monthlyPayment=${totalMonthlyPayment}`
     );
   };
 

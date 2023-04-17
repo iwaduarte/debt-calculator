@@ -27,14 +27,14 @@ const routeItems = [
 
 const router = createBrowserRouter([
   {
-    path: "/supermoney",
+    path: "/debt-calculator",
     element: <Home />,
     errorElement: <Error />,
     children: routeItems,
   },
   {
     path: "*",
-    element: <Navigate to="/supermoney" />,
+    element: <Navigate to="/debt-calculator" />,
   },
 ]);
 

@@ -47,7 +47,7 @@ const Results = () => {
 
   return (
     <>
-      <Link className={anchor} to={"/supermoney"}>
+      <Link className={anchor} to={"/debt-calculator"}>
         <FaArrowLeft className={icon} />
         Update Your Current Debts
       </Link>
