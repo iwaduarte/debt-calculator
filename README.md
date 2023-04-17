@@ -8,7 +8,7 @@ This awesome Debt Consolidation Savings Calculator helps you calculate your pote
 - Calculate potential savings after consolidating the debts.
 
 ## 🎯 How to Use
-1. Access the calculator at [http://localhost:3000](http://localhost:3000)
+1. Access the calculator at [https://iwaduarte.github.io/debt-calculator](https://iwaduarte.github.io/debt-calculator)
 2. Enter your current debts and hit "Calculate Savings" to see the magic! ✨
 
 Have fun calculating your potential savings! 💪😃
