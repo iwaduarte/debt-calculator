@@ -3,13 +3,13 @@ import style from "./Home.module.css";
 import { Outlet } from "react-router-dom";
 import { Context } from "../Contexts/GroupsContext.jsx";
 
-const { main, subtext } = style;
+const { main, subtext, h3 } = style;
 
 const Home = ({}) => {
   const [data, setData] = useState({});
   return (
     <div className={main}>
-      <h3> Debt Consolidation Savings Calculator</h3>
+      <h3 className={h3}> Debt Consolidation Savings Calculator</h3>
       <div className={subtext}>
         Enter the details of your current unsecured debt and see how much you
         may be able to save after consolidating the debts into a single loan.
